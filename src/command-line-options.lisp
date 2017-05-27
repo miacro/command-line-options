@@ -2,4 +2,4 @@
   (:documentation "The Command Line Options package")
   (:use :cl)
   (:export  :defsynopsis
-            :get-command-line))
+            :command-line))

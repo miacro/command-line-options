@@ -1,0 +1,8 @@
+(defclass option ()
+  ((description  :reader get-description   :writer set-description)
+   (option-name)
+   (long-name)
+   (short-name)
+   (value-parser)
+   (required)
+   (default-value)))

@@ -2,4 +2,6 @@
     :description "command line options"
     :version "0.0.1"
     :author "miacro<fqguozhou@gmail.com>"
-    :components ((:file "command-line-options") (:file "synopsis")))
+    :components ((:file "command-line-options")
+                 (:file "synopsis")
+                 (:file "option")))

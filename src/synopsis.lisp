@@ -1,3 +1,3 @@
 (in-package :command-line-options)
-(defun get-command-line ()
+(defun command-line ()
   #+sbcl sb-ext:*posix-argv*)
