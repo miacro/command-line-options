@@ -2,4 +2,5 @@
   (:documentation "The Command Line Options package")
   (:use :cl)
   (:export  :defsynopsis
-            :command-line))
+            :command-line
+            :process-exit))

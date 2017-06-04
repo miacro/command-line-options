@@ -4,4 +4,5 @@
     :author "miacro<fqguozhou@gmail.com>"
     :components ((:file "command-line-options")
                  (:file "synopsis")
+                 (:file "system")
                  (:file "option")))
